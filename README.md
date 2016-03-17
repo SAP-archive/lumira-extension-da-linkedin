@@ -1,4 +1,4 @@
-lumira-extension-da-linkedin
+LinkedIn Data Access Connector for SAP Lumira
 ============================
 
 A Lumira Data Access Extension To Fetch Linkedin Contacts
