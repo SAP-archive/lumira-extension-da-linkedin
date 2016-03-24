@@ -53,7 +53,6 @@ Live LinkedIn data will be imported as a dataset, which we can choose to create.
 Once you have the dataset imported into Lumira, you can now play around with the data and charts as you please!<br>
 
 ================================================================
-Blog post : [Coming Soon]()
 
 <strong>NOTE: </strong><br>
 This is a developer-centric extension, and involves custom coding for further use. Please refer to LinkedIn's guide to leveraging your application: https://developer.linkedin.com/docs/oauth2 
