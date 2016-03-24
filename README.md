@@ -10,28 +10,35 @@ A Step-by-Step Guide to Installation & Execution of the LinkedIn Data Access Ext
 
 <strong>Step 1:	Creation of a LinkedIn app</strong> <br>
 The reason why we need to create a LinkedIn app is so that we can access the LinkedIn API keys, which will be our main source of extracting LinkedIn data which is primarily the list of your LinkedIn contacts,  and importing it into SAP Lumira for visualization where we can then analyze the dataset. <br>
+
 1. Log in to your LinkedIn account (or sign up if you don’t already have one), and then go to https://www.linkedin.com/developer/apps and create a new LinkedIn application.
-![My image](https://github.com/SAP/lumira-extension-da-linkedin/blob/master/readmescreenshots/1.jpg)<br>
+![My image](https://github.com/SAP/lumira-extension-da-linkedin/blob/master/readmescreenshots/1.jpg) <br>
+
 ![My image](https://github.com/SAP/lumira-extension-da-linkedin/blob/master/readmescreenshots/2.jpg) <br>
+
 2. After creating the application, we can now retrieve the API client ID and client secret which we will use later. 
 ![My image](https://github.com/SAP/lumira-extension-da-linkedin/blob/master/readmescreenshots/3.jpg) 
-Note: We will also require the User Key and User Secret, i.e. the OAuth token and OAuth secret respectively. This can be done only programmatically. You can try it out using the following reference: https://developer.linkedin.com/docs/oauth2 
+
+<strong>NOTE:</strong> We will also require the User Key and User Secret, i.e. the OAuth token and OAuth secret respectively. This can be done only programmatically. You can try it out using the following reference: https://developer.linkedin.com/docs/oauth2 
 <br>
 
 <strong>Step 2:	Activate Data Source Extensions in Lumira</strong> <br>
 1. Go to the directory where SAP Lumira is installed: C:\Program Files\SAP Lumira\Desktop <br>
 2. Find the file SAPLumira.ini and open it with a text editor. <br>
 ![My image](https://github.com/SAP/lumira-extension-da-linkedin/blob/master/readmescreenshots/a.jpg) <br>
+
 3. Add the following lines of code to the SAPLumira.ini file: <br>
   -Dhilo.externalds.folder=C:\Program Files\SAP Lumira\Desktop\daextensions <br>
   -Dactivate.externaldatasource.ds=true <br>
 ![My image](https://github.com/SAP/lumira-extension-da-linkedin/blob/master/readmescreenshots/b.jpg)<br>
+
 4. Now save this file and create a folder called daextensions in the C:\Program Files\SAP Lumira\Desktop directory so that we have a directory called C:\Program Files\SAP Lumira\Desktop\daextensions <br>
 5. Download the executable file called LinkedinExtractor.exe to the directory we just created.<br>
 
 <strong>Step 3:	Import data extension into Lumira</strong> <br>
 1. Now open up Lumira and add a new dataset from an external data source as follows:<br>
 ![My image](https://github.com/SAP/lumira-extension-da-linkedin/blob/master/readmescreenshots/d.jpg)<br>
+
 2. We can see the linkedinextractor as an uncategorized extension:<br>
 ![My image](https://github.com/SAP/lumira-extension-da-linkedin/blob/master/readmescreenshots/e.jpg)<br>
 
@@ -45,6 +52,7 @@ Live LinkedIn data will be imported as a dataset, which we can choose to create.
 <strong>Step 6:	Get live insights</strong> <br>
 Once you have the dataset imported into Lumira, you can now play around with the data and charts as you please!<br>
 
+================================================================
 Blog post : [Coming Soon]()
 
 <strong>NOTE: </strong><br>
