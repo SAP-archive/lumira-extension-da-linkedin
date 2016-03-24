@@ -16,7 +16,7 @@ The reason why we need to create a LinkedIn app is so that we can access the Lin
 
 ![My image](https://github.com/SAP/lumira-extension-da-linkedin/blob/master/readmescreenshots/2.jpg) <br>
 
-2. After creating the application, we can now retrieve the API client ID and client secret which we will use later. 
+2.After creating the application, we can now retrieve the API client ID and client secret which we will use later. <br>
 ![My image](https://github.com/SAP/lumira-extension-da-linkedin/blob/master/readmescreenshots/3.jpg) 
 
 <strong>NOTE:</strong> We will also require the User Key and User Secret, i.e. the OAuth token and OAuth secret respectively. This can be done only programmatically. You can try it out using the following reference: https://developer.linkedin.com/docs/oauth2 
@@ -27,7 +27,7 @@ The reason why we need to create a LinkedIn app is so that we can access the Lin
 2. Find the file SAPLumira.ini and open it with a text editor. <br>
 ![My image](https://github.com/SAP/lumira-extension-da-linkedin/blob/master/readmescreenshots/a.jpg) <br>
 
-3. Add the following lines of code to the SAPLumira.ini file: <br>
+3.Add the following lines of code to the SAPLumira.ini file: <br>
   -Dhilo.externalds.folder=C:\Program Files\SAP Lumira\Desktop\daextensions <br>
   -Dactivate.externaldatasource.ds=true <br>
 ![My image](https://github.com/SAP/lumira-extension-da-linkedin/blob/master/readmescreenshots/b.jpg)<br>
