@@ -1,3 +1,8 @@
+![](https://img.shields.io/badge/STATUS-NOT%20CURRENTLY%20MAINTAINED-red.svg?longCache=true&style=flat)
+
+# Important Notice
+We have decided to stop the maintenance of this public GitHub repository.
+
 LinkedIn Data Access Connector for SAP Lumira
 ===========================
 By [Alper Derici](http://scn.sap.com/people/alper.derici%40sap)
